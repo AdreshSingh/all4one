@@ -1,0 +1,18 @@
+---
+const { minutesRead } = Astro.props.frontmatter;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Learn HTML</title>
+  </head>
+  <body>
+    <main>
+      <div>{minutesRead}</div>
+      <slot />
+    </main>
+  </body>
+</html>
