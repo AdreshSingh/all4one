@@ -4,9 +4,13 @@ import starlight from '@astrojs/starlight';
 import react from '@astrojs/react';
 
 import tailwind from '@astrojs/tailwind';
+import { remarkReadingTime } from './remark-reading-time.mjs';
 
 // https://astro.build/config
 export default defineConfig({
+    markdown: {
+        remarkPlugins: [remarkReadingTime]
+    },
     integrations: [starlight({
         title: 'All4One',
         social: {
