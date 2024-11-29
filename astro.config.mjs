@@ -32,6 +32,12 @@ export default defineConfig({
                     {
                         label: 'Presentational Tags', slug: 'html/presentational'
                     },
+                    {
+                        label: 'Marqueee Tag', slug: 'html/marquee'
+                    },
+                    {
+                        label: 'HTML List', slug: 'html/list'
+                    },
                 ]
             },
             {
