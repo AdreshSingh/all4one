@@ -50,6 +50,8 @@ This tag is used to scroll the content in any direction. It can be either left, 
 </html>
 ```
 
+> It is deprecated now, but still fun, learn with fun
+
 ---
 
 ## `<img> tag`
