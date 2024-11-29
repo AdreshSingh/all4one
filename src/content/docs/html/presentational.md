@@ -44,13 +44,13 @@ In HTML,There are varoius ways coloring things out like from most common is colo
 
 | Color Name | RGB Value   |
 | ---------- | ----------- |
-| Red        | 256,0,0     |
-| Green      | 0,256,0     |
-| Blue       | 0,0,256     |
-| White      | 256,256,256 |
+| Red        | 255,0,0     |
+| Green      | 0,255,0     |
+| Blue       | 0,0,255     |
+| White      | 255,255,255 |
 | Black      | 0,0,0       |
 
-> Whenver color needed in rgb then just use values(0..256). 0 is the lowest one. like we need blue then it will be -> 0,0,256.
+> Whenver color needed in rgb then just use values(0..255). 0 is the lowest one. like we need blue then it will be -> 0,0,255.
 
 ### Hexadecimal Colors
 
