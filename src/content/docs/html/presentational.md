@@ -90,3 +90,21 @@ The `<pre>` (container) tag is ued when we want to preserve the formatting of co
   </body>
 </html>
 ```
+
+## Centering the Content
+
+To center all the content in the webpage, we can use `<center>` (container) tag. All the main content which is packed inside it.
+
+```html
+<html>
+  <head>
+    <title>HTML is Quite 😊</title>
+  </head>
+  <body>
+    <p>This text is outside of center tag</p>
+    <center>
+      <p>This text will appear at center of the webpage.</p>
+    </center>
+  </body>
+</html>
+```
